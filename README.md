@@ -1,4 +1,5 @@
-# Config-Esms-Core-J4F
+# Config Esms Core J4F
+#### the purpose of the test is to describe how sms-access and voice-otp work so there is not much to explain, below I just demo for sms-access alone so voice-otp is similar
 ## Prerequisites
 - JDK 19
 - Maven
