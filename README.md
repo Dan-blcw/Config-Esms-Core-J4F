@@ -17,6 +17,7 @@
 ![image](https://user-images.githubusercontent.com/127305381/229307955-20240436-b261-428f-b4f2-84805ae2f559.png)
 #### PostRequest sms-access failure
 ![image](https://user-images.githubusercontent.com/127305381/229308431-713d1506-0102-4d4e-85c2-443095a8a69b.png)
+- voice-otp is similar
 ## Summary chart
 ```
 - src
