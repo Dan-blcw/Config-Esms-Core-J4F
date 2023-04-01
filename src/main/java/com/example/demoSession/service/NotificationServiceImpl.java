@@ -54,7 +54,7 @@ public class NotificationServiceImpl implements NotificationService {
                     phone,
                     eSmsResponse.getCodeResult());
             if (ESMS_SUCCESS.equals(eSmsResponse.getCodeResult())) {
-                return "It Work! method sendSMS normal active ";
+                return "It Work! method sendSMS normal active, from NotificationServiceImpl";
             }
         } catch (Exception ex) {
             log.info("Send sms to phone {} error {}", phone, ex);
@@ -83,7 +83,7 @@ public class NotificationServiceImpl implements NotificationService {
             EsmsResponseDto eSmsResponse = response.getBody();
             log.info("Send voice otp to phone {} response {}", phone, eSmsResponse.getCodeResult());
             if (ESMS_SUCCESS.equals(eSmsResponse.getCodeResult())) {
-                return "It Work! method sendVoiceOTP normal active ";
+                return "It Work! method sendVoiceOTP normal active,  from NotificationServiceImpl";
             }
         } catch (Exception ex) {
             log.info("Send voice otp to phone {} error {}", phone, ex);
