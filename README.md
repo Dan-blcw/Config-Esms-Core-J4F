@@ -4,13 +4,14 @@
 - Maven
 - Postgres
 ## Set request body as raw with JSON payload
-PostRequest sms-access and voice-otp (they are the same)
+#### PostRequest sms-access and voice-otp (they are the same)
+
 ```
 {
     "phone" : "16543165",
     "message" : "What's up"
 }
-```It Work! method sendSMS normal active, from NotificationServiceImpl
+```
 ## PostMan
 #### PostRequest sms-access success
 ![image](https://user-images.githubusercontent.com/127305381/229307955-20240436-b261-428f-b4f2-84805ae2f559.png)
