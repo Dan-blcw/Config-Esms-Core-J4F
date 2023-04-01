@@ -1,9 +1,8 @@
-# Config Esms Core J4F
+# Config Esms Core
 #### the purpose of the test is to describe how sms-access and voice-otp work so there is not much to explain, below I just demo for sms-access alone so voice-otp is similar
 ## Prerequisites
 - JDK 19
 - Maven
-- Postgres
 ## Set request body as raw with JSON payload
 #### PostRequest sms-access and voice-otp (they are the same)
 
